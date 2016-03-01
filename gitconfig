@@ -8,14 +8,14 @@
   branch = auto
 
 [color "diff"]
-  meta = yellow 
+meta = yellow 
 
 [core]
   excludesfile = ~/.gitignore
   editor = vim --noplugin
 
 [apply]
-  whitespace = nowarn
+whitespace = nowarn
 
 [help]
   autocorrect = 1
