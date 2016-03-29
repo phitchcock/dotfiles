@@ -1,3 +1,4 @@
+let mapleader = ","
 " ###
 " Much of this was stolen from awesome people who stole it. Many thanks
 " to the giants whos shoulders I stand upon.
@@ -18,6 +19,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
 
 " My bundles
 Plugin 'scrooloose/nerdtree'        " Project Drawer
@@ -26,6 +28,7 @@ Plugin 'tpope/vim-bundler'          " Gemfiles
 Plugin 'kien/ctrlp.vim'             " Fuzzy finder
 Plugin 'godlygeek/tabular'          " Align text
 Plugin 'vim-scripts/loremipsum'     " Lorem ipsum
+Plugin 'wincent/command-t'
 
 " Syntax
 Plugin 'mattn/emmet-vim'            " html/css
@@ -91,7 +94,6 @@ nnoremap <c-l> <c-w>l
 runtime macros/matchit.vim
 " ================
 
-let mapleader = ","
 
 " Toggle spell checking on and off with `,s`
 nmap <silent> <leader>sp :set spell!<CR>
