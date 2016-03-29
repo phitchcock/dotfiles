@@ -1,6 +1,6 @@
 [user]
   name = Jim OKelly
-  email = thatrubylove@gmail.com 
+  email = thatrubylove@gmail.com
 
 [color]
   diff = auto
@@ -8,14 +8,14 @@
   branch = auto
 
 [color "diff"]
-meta = yellow 
+  meta = yellow
 
 [core]
   excludesfile = ~/.gitignore
   editor = vim --noplugin
 
 [apply]
-whitespace = nowarn
+  whitespace = nowarn
 
 [help]
   autocorrect = 1
